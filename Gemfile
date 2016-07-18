@@ -6,6 +6,10 @@ ruby '2.2.2'
 gem 'rails', '5.0.0'
 # Use bcrypt to hash passwords
 gem 'bcrypt', '3.1.11'
+# User faker to create sample users
+gem 'faker', '1.6.3'
+gem 'will_paginate', '3.1.0'
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use Bootstrap for styling
 gem 'bootstrap-sass', '3.3.6'
 # Use Puma as the app server
